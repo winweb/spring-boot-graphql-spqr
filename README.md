@@ -10,9 +10,9 @@ http://localhost:8080/gui
 ## test case
 ### case 1 when you want find all cars.
 ```
-{
-  cars{
-    id,
+query {
+  cars {
+    id
     name
   }
 }
@@ -20,18 +20,19 @@ http://localhost:8080/gui
 
 ### case 2 when you want save new car.
 ```
-mutation{
-  saveCar(car:{name:"New Car"}){
-    id,
+mutation {
+  saveCar(car: { name: "New Car" }) {
+    id
     name
   }
 }
 ```
+
 ### case 3 when you want update some car.
 ```
-mutation{
-  saveCar(car:{id: 9,name:"New Car"}){
-    id,
+mutation {
+  saveCar(car: { id: 9, name: "New Car" }) {
+    id
     name
   }
 }
@@ -39,11 +40,11 @@ mutation{
 
 ### case 4 when you want inquiry some car.
 ```
-{
+query {
   car(id: 9){
-    id,
-    name,
-    isCool,
+    id
+    name
+    isCool
     giphyUrl
   }
 }
