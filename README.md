@@ -1,4 +1,4 @@
-# spring-boot-graphql-sqqr
+# spring-boot-graphql-spqr
 Rapid development of simple CRUD GraphQL APIs in Java and Spring Boot
 
 ## Overview
