@@ -39,7 +39,7 @@
   }
 </script>
 <style>
-li {
-  text-align: left;
-}
+  li {
+    text-align: left;
+  }
 </style>
