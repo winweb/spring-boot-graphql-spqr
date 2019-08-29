@@ -55,9 +55,6 @@ query {
 
 ### buid project
 ```
-cd frontend
-mvn package
-cd ..
 mvn pagkage
 ```
 
