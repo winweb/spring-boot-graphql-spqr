@@ -49,3 +49,17 @@ query {
   }
 }
 ```
+
+## POC retrieve Graphql data on Vue.js.
+
+
+### buid project
+```
+cd frontend
+mvn package
+cd ..
+mvn pagkage
+```
+
+### open web page on Vue.js. 
+http://localhost:8080
